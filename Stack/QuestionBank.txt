@@ -1,0 +1,40 @@
+What does CPU stand for? ,Central Processing Unit, 15
+HTML stands for Hyper Text Markup ____. ,Language, 15
+SQL stands for Structured Query ____. ,Language, 15
+The default port for HTTP is _____. ,80, 15
+CSS is used for styling ____ pages. ,Web, 15
+The purpose of RAM is to temporarily store data and ____. ,Instructions, 15
+TCP is a ____-oriented protocol. ,Connection, 15
+A compiler translates high-level programming languages into machine ____. ,Code, 15
+HTTPS is a secure version of _____. ,HTTP, 15
+Git is a popular version control _____. ,System, 15
+The purpose of a DNS server is to translate domain names to IP ____. ,Addresses, 15
+A constructor is used to initialize object _____. ,Properties, 15
+Polymorphism allows objects of different classes to be treated as objects of the same ____. ,Class, 15
+A firewall protects against unauthorized ____ to a network. ,Access, 15
+An API stands for Application Programming ____. ,Interface, 15
+HTML is used for creating ____ web pages. ,Structured, 15
+A loop is a control structure that repeats a block of code ____ times. ,Multiple, 15
+CPU is often referred to as the "" of the computer. ,Brain, 15
+CSS is used to define the style and layout of ____ pages. ,Web, 15
+A compiler translates source code into ____ code. ,Machine, 15
+HTTP stands for Hypertext Transfer _____. ,Protocol, 15
+What is the main function of RAM in a computer? A: To temporarily store data and instructions. B: To permanently store data. C: To control input and output devices. D: Discard, A, 10
+Which programming paradigm emphasizes immutability and pure functions? A: Functional programming. B: Object-oriented programming. C: Procedural programming. D: Discard, A, 10
+What is the purpose of the 'try' block in exception handling? A: To enclose code that might throw an exception. B: To execute code when no exceptions occur. C: To terminate the program. D: Discard, A, 10
+What is the purpose of polymorphism in object-oriented programming? A: To allow objects of different classes to be treated as objects of the same class. B: To create graphical user interfaces. C: To manage memory allocation. D: Discard, A, 10
+What is the purpose of inheritance in object-oriented programming? A: To create new classes based on existing classes. B: To perform mathematical calculations. C: To control program flow. D: Discard, A, 10
+What is the purpose of an index in a database? A: To improve query performance. B: To store data. C: To create tables. D: Discard, A, 10
+What is the purpose of the 'break' statement in programming? A: To exit a loop or switch statement. B: To repeat a block of code. C: To define functions. D: Discard, A, 10
+What is the purpose of encapsulation in object-oriented programming? A: To hide the internal state of an object and only expose the necessary functionalities. B: To create new classes based on existing classes. C: To allow objects of different classes to be treated as objects of the same class. D: Discard, A, 10
+What is the purpose of an API in software development? A: To define how software components should interact. B: To create graphical user interfaces. C: To store and retrieve data. D: Discard, A, 10
+Which statement is true about object-oriented programming? A: It focuses on objects that have attributes and behaviors. B: It is limited to only one programming language. C: It does not support inheritance. D: Discard, A, 10
+What is the purpose of the 'else' statement in programming? A: To execute code when the 'if' condition is false. B: To terminate the program. C: To declare variables. D: Discard, A, 10
+What is the role of a firewall in computer networks? A: To protect against unauthorized access. B: To increase network speed. C: To create virtual networks. D: Discard, A, 10
+Which data structure uses LIFO method? A: Queue. B: Stack. C: Linked List. D: Discard, B, 10
+What is the function of a compiler in programming? A: To translate high-level programming languages into machine code. B: To execute program instructions. C: To store and retrieve data. D: Discard, A, 10
+What is the purpose of version control systems like Git? A: To manage changes to source code. B: To create graphical user interfaces. C: To optimize database queries. D: Discard, A, 10
+What is the role of a DNS server in computer networking? A: To translate domain names to IP addresses. B: To secure network connections. C: To store website content. D: Discard, A, 10
+Which programming language is often used for artificial intelligence and machine learning? A: Python. B: Java. C: C++. D: Discard, A, 10
+Who is considered the final prophet in Islam? A: Muhammad. B: Jesus. C: Moses. D: Discard, A, 10
+What is the holy book of Islam called? A: Quran. B: Bible. C: Torah. D: Discard, A, 10
