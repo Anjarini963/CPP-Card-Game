@@ -46,7 +46,14 @@ public:
 	void LoadQuestions();
 	bool validateAnswer(Card* card, const string userAnswer);
 	~CardDeck();
-	//trim function to be removed once question bank is updated
+	static string toLower(const string& in) {
+		string out;
+		out.reserve(in.size());
+		for (char ch : in) {
+			out += tolower(ch);  // Convert each character to lowercase
+		}
+		return out;
+	};
 	static void trim(string& str) {
 		size_t first = str.find_first_not_of(' ');
 		size_t last = str.find_last_not_of(' ');
@@ -57,6 +64,8 @@ public:
 			str = str.substr(first, (last - first + 1));
 		}
 	}
+	//trim function to be removed once question bank is updated
+	
 };
 	bool CardDeck::validateAnswer(Card* card, const string userAnswer) {
 	return card->answer == userAnswer; // Simple equality check
@@ -96,7 +105,6 @@ public:
 	}
 }
 	void CardDeck::LoadQuestions(){
-
 		ifstream file("QuestionBank.txt");
 		string line;
 
@@ -105,7 +113,7 @@ public:
 			return;
 		}
 
-		const int maxQuestions = 300; // Maximum number of questions
+		const int maxQuestions = 300;  // Max number of questions to handle
 		string questions[maxQuestions];
 		string answers[maxQuestions];
 		int scores[maxQuestions];
@@ -119,28 +127,21 @@ public:
 			if (getline(iss, question, ',') && getline(iss, answer, ',') && getline(iss, scoreStr)) {
 				stringstream scoreStream(scoreStr);
 				if (scoreStream >> score) {
-					// Format and trim question and answer
-					string formattedQuestion, formattedAnswer;
+					// Formatting question text with newlines after '.' or '?'
+					string formattedQuestion;
 					for (char ch : question) {
 						formattedQuestion += ch;
-						if (ch == '.' || ch == '?') formattedQuestion += '\n';
-					}
-					for (char ch : answer) {
-						formattedAnswer += ch;
-						if (ch == '.' || ch == '?') formattedAnswer += '\n';
+						if (ch == '.' || ch == '?')
+							formattedQuestion += '\n';
 					}
 
-					// Trimming logic applied here within the LoadQuestions method
-					auto trim = [](string& str) {
-						size_t first = str.find_first_not_of(' ');
-						size_t last = str.find_last_not_of(' ');
-						if (first == string::npos || last == string::npos) str = "";
-						else str = str.substr(first, (last - first + 1));
-					};
+					// Converting answer to lowercase for case-insensitive comparison
+					string formattedAnswer = toLower(answer);
 
 					trim(formattedQuestion);
 					trim(formattedAnswer);
 
+					// Storing the formatted and processed question, answer and score
 					questions[questionCount] = formattedQuestion;
 					answers[questionCount] = formattedAnswer;
 					scores[questionCount] = score;
@@ -157,7 +158,7 @@ public:
 
 		file.close();
 
-		// Shuffling logic here within the LoadQuestions method
+		// Shuffling the loaded questions to randomize the order
 		srand(time(0));
 		for (int i = 0; i < questionCount; i++) {
 			int j = rand() % questionCount;
@@ -166,7 +167,7 @@ public:
 			swap(scores[i], scores[j]);
 		}
 
-		// Pushing shuffled and formatted questions to the deck
+		// Pushing the shuffled questions into the deck
 		for (int i = 0; i < questionCount; i++) {
 			push(questions[i], answers[i], scores[i]);
 		}

@@ -26,30 +26,34 @@ int main() {
                 cout << "Player " << (i + 1) << ", please enter your name: ";
                 string PlayerName;
                 cin >> PlayerName;
-                
+
                 for (int i = 1; i < 4; i++) {
                     cout << PlayerName << ", Turn " << (i) << ", please pick a card:" << endl << "1. Unanswered Deck" << endl << "2. Discarded Deck" << endl;
                     cin >> userchoice;
                     if (userchoice == "1") {
-                        
+
                         //logic for picking a card form unanswered deck
                         Card* card = unansweredDeck.pop();
                         cout << card->question << endl;;
                         cin >> answer;
-                            //logic for checking answer and handling card
+                        answer = unansweredDeck.toLower(answer);
+                        unansweredDeck.trim(answer);
+                        cout << "DEBUG: Your answer is:" << answer << endl;
+                        cout << "DEBUG: the node's answer is: " << card->answer << endl;
+                        //logic for checking answer and handling card
                         if (unansweredDeck.validateAnswer(card, answer)) {
                             answeredDeck.push(card->question, card->answer, card->score);
                             cout << "Correct!" << endl;
                             delete card;
-                                //logic for player points?
+                            //logic for player points?
                         }
                         else {
                             cout << "Incorrect! The card has been sent to the discarded pile!" << endl;
                             discardedDeck.push(card->question, card->answer, card->score);
                             delete card;
-                            
+
                         }
-                                    //logic for user handling (adding information of answered card onto user info)
+                        //logic for user handling (adding information of answered card onto user info)
                     }
                     else if (userchoice == "2") {
                         //logic for dislpaying the discarded set options
@@ -67,6 +71,8 @@ int main() {
                         if (card) {
                             cout << "You selected: " << endl << card->question << endl << "What's your answer? ";
                             cin >> answer;
+                            answer = unansweredDeck.toLower(answer);
+                            unansweredDeck.trim(answer);
                             if (answer == card->answer) {
                                 cout << "Correct Answer!" << endl;
                                 discardedDeck.remove(index - 1);
@@ -75,11 +81,11 @@ int main() {
                                 cout << "Wrong Answer. The card stays." << endl;
                             }
                         }
-                            
+
                     }
                 }
-               
-            }
+
+            } cout << "The game has ended! You can now check the leaderboard ;)" << endl;
         }
         else if (userchoice == "2") {
             cout << "leaderboard here" << endl;
