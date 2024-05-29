@@ -2,7 +2,6 @@
 
 
 int main() {
-    //GIT TESTING
     // Create separate deck instances
     CardDeck unansweredDeck;
     CardDeck answeredDeck;
@@ -38,8 +37,6 @@ int main() {
                         cin >> answer;
                         answer = unansweredDeck.toLower(answer);
                         unansweredDeck.trim(answer);
-                        cout << "DEBUG: Your answer is:" << answer << endl;
-                        cout << "DEBUG: the node's answer is: " << card->answer << endl;
                         //logic for checking answer and handling card
                         if (unansweredDeck.validateAnswer(card, answer)) {
                             answeredDeck.push(card->question, card->answer, card->score);
