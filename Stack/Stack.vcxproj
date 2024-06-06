@@ -134,6 +134,7 @@
     <ClCompile Include="testStackArray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PointHandling.h" />
     <ClInclude Include="StackLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

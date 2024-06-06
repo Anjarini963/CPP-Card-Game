@@ -1,40 +1,305 @@
-What does CPU stand for? ,Central Processing Unit, 15
-HTML stands for Hyper Text Markup ____. ,Language, 15
-SQL stands for Structured Query ____. ,Language, 15
-The default port for HTTP is _____. ,80, 15
-CSS is used for styling ____ pages. ,Web, 15
-The purpose of RAM is to temporarily store data and ____. ,Instructions, 15
-TCP is a ____-oriented protocol. ,Connection, 15
-A compiler translates high-level programming languages into machine ____. ,Code, 15
-HTTPS is a secure version of _____. ,HTTP, 15
-Git is a popular version control _____. ,System, 15
-The purpose of a DNS server is to translate domain names to IP ____. ,Addresses, 15
-A constructor is used to initialize object _____. ,Properties, 15
-Polymorphism allows objects of different classes to be treated as objects of the same ____. ,Class, 15
-A firewall protects against unauthorized ____ to a network. ,Access, 15
-An API stands for Application Programming ____. ,Interface, 15
-HTML is used for creating ____ web pages. ,Structured, 15
-A loop is a control structure that repeats a block of code ____ times. ,Multiple, 15
-CPU is often referred to as the "" of the computer. ,Brain, 15
-CSS is used to define the style and layout of ____ pages. ,Web, 15
-A compiler translates source code into ____ code. ,Machine, 15
-HTTP stands for Hypertext Transfer _____. ,Protocol, 15
-What is the main function of RAM in a computer? A: To temporarily store data and instructions. B: To permanently store data. C: To control input and output devices. D: Discard, A, 10
-Which programming paradigm emphasizes immutability and pure functions? A: Functional programming. B: Object-oriented programming. C: Procedural programming. D: Discard, A, 10
-What is the purpose of the 'try' block in exception handling? A: To enclose code that might throw an exception. B: To execute code when no exceptions occur. C: To terminate the program. D: Discard, A, 10
-What is the purpose of polymorphism in object-oriented programming? A: To allow objects of different classes to be treated as objects of the same class. B: To create graphical user interfaces. C: To manage memory allocation. D: Discard, A, 10
-What is the purpose of inheritance in object-oriented programming? A: To create new classes based on existing classes. B: To perform mathematical calculations. C: To control program flow. D: Discard, A, 10
-What is the purpose of an index in a database? A: To improve query performance. B: To store data. C: To create tables. D: Discard, A, 10
-What is the purpose of the 'break' statement in programming? A: To exit a loop or switch statement. B: To repeat a block of code. C: To define functions. D: Discard, A, 10
-What is the purpose of encapsulation in object-oriented programming? A: To hide the internal state of an object and only expose the necessary functionalities. B: To create new classes based on existing classes. C: To allow objects of different classes to be treated as objects of the same class. D: Discard, A, 10
-What is the purpose of an API in software development? A: To define how software components should interact. B: To create graphical user interfaces. C: To store and retrieve data. D: Discard, A, 10
-Which statement is true about object-oriented programming? A: It focuses on objects that have attributes and behaviors. B: It is limited to only one programming language. C: It does not support inheritance. D: Discard, A, 10
-What is the purpose of the 'else' statement in programming? A: To execute code when the 'if' condition is false. B: To terminate the program. C: To declare variables. D: Discard, A, 10
-What is the role of a firewall in computer networks? A: To protect against unauthorized access. B: To increase network speed. C: To create virtual networks. D: Discard, A, 10
-Which data structure uses LIFO method? A: Queue. B: Stack. C: Linked List. D: Discard, B, 10
-What is the function of a compiler in programming? A: To translate high-level programming languages into machine code. B: To execute program instructions. C: To store and retrieve data. D: Discard, A, 10
-What is the purpose of version control systems like Git? A: To manage changes to source code. B: To create graphical user interfaces. C: To optimize database queries. D: Discard, A, 10
-What is the role of a DNS server in computer networking? A: To translate domain names to IP addresses. B: To secure network connections. C: To store website content. D: Discard, A, 10
-Which programming language is often used for artificial intelligence and machine learning? A: Python. B: Java. C: C++. D: Discard, A, 10
-Who is considered the final prophet in Islam? A: Muhammad. B: Jesus. C: Moses. D: Discard, A, 10
-What is the holy book of Islam called? A: Quran. B: Bible. C: Torah. D: Discard, A, 10
+Which data structure uses LIFO (Last In First Out) principle? A: Queue. B: Stack. C:Linked List,B,10
+What is the time complexity of searching in a binary search tree? A: O(1). B: O(log n). C: O(n),B,10
+Collision resolution in hashing refers to? A: Creating a new hash function. B: Resizing the hash table. C: Handling cases where two keys map to the same index,C,10
+Which of the following is NOT a property of a heap? A: Complete binary tree. B: Parent nodes are smaller than or equal to their children. C: Parent nodes are greater than or equal to their children,C,10
+What is the time complexity of basic operations (insertion & deletion and search) in a hash table with chaining collision resolution? A: O(1). B: O(log n). C: O(n),A,10
+Describe the process of heapifying an array. A: Rearranging the elements of an array to satisfy the heap property. B: Sorting the elements of the array. C: Deleting elements from the array,A,10
+What is the primary purpose of a linked list? A: To store elements in sorted order. B: To implement stacks and queues. C: To provide direct access to elements,B,10
+Which data structure is typically used to implement undo functionality in text editors? A: Stack. B: Queue. C: Binary search tree,A,10
+Explain the concept of amortized analysis in the context of data structures. A: Analyzing the average-case time complexity of operations over a sequence of operations. B: Analyzing the worst-case time complexity of operations. C: Analyzing the best-case time complexity of operations,A,10
+What does a vertex represent in a graph? A: A connection between two nodes. B: A node or a point. C: A directed path,B,10
+What is the purpose of a hash function in hashing? A: To resize the hash table. B: To generate random numbers. C: To map data to an index in the hash table,C,10
+Which data structure is commonly used for implementing a Least Recently Used (LRU) cache? A: Array. B: Stack. C: Linked List,C,10
+What is the time complexity of finding the shortest path between two vertices in a weighted graph using Dijkstra's algorithm? A: O(V) B: O(E log V) C: O(V log V),B,10
+Which sorting algorithm has the best worst-case time complexity? A: Bubble Sort B: Merge Sort C: Quick Sort,B,10
+What is the maximum number of nodes at depth d in a binary tree? A: 2^(d+1) – 1. B: 2^d. C: d + 1,A,10
+What is the primary advantage of using an AVL tree over a regular binary search tree? A: AVL trees have better worst-case time complexity for insertion and deletion operations. B: AVL trees require less memory. C: AVL trees are easier to implement,A,10
+What is the main purpose of a tree data structure? A: To store sorted elements. B: To efficiently search for keys with common prefixes. C: To represent hierarchical data,B,10
+Which data structure is typically used to implement a disjoint-set data structure? A: Linked List B: Array C: Binary Tree, B,10
+What is the time complexity of basic operations (insertion deletion and search) in a binary search tree that is not balanced? A: O(1) B: O(log n) C: O(n),C,10
+What is the primary advantage of using a skip list over a linked list? A: Skip lists have better worst-case time complexity for search operations. B: Skip lists require less memory. C: Skip lists are easier to implement,A,10
+Describe the process of balancing a binary search tree. A: Reorganizing the tree to ensure that the height is minimized. B: Performing rotations to maintain the height balance property. C: Deleting nodes from the tree,B,10
+What is the primary advantage of using a linked list over an array? A: Linked lists have constant-time access to elements. B: Linked lists can dynamically resize without copying elements. C: Linked lists occupy less memory,B,10
+Which data structure is used to implement breadth-first search (BFS) in a graph? A: Stack. B: Queue. C: Heap,B,10
+Explain the concept of dynamic memory allocation. A: Allocating memory at compile time. B: Allocating memory at runtime. C: Deallocating memory,B,10
+What is the time complexity of merging two sorted arrays of lengths m and n respectively? A: O(m + n). B: O(m log m + n log n). C: O(mn),A,10
+Which data structure is commonly used to implement a symbol table in compilers? A: Hash table. B: Binary search tree. C: Heap,A,10
+What is the purpose of using a bloom filter? A: To store data in a compressed format. B: To perform approximate membership queries with space efficiency. C: To perform efficient sorting of elements,B,10
+Explain the concept of lazy deletion in binary search trees. A: Deleting nodes immediately upon request. B: Marking nodes as deleted without actually removing them from the tree. C: Rearranging nodes to maintain balance,B,10
+What is the main advantage of using a splay tree over other binary search tree variants? A: Splay trees have better average-case time complexity for search operations. B: Splay trees require less memory. C: Splay trees have better worst-case time complexity for insertion and deletion operations,A,10
+What is the primary advantage of using a hash table over other data structures for storing key-value pairs? A: Constant-time access to elements. B: Efficient insertion deletion and search operations on average. C: Maintains elements in sorted order,B,10
+What is the primary purpose of a Fenwick tree (Binary Indexed Tree)? A: To efficiently calculate prefix sums and perform range queries on an array. B: To store binary data in a compressed format. C: To implement dynamic memory allocation,A,10
+Explain the concept of a bloom filter. A: A probabilistic data structure used to test whether an element is a member of a set. B: A data structure used for sorting elements in linear time. C: A tree structure used to represent hierarchical data,A,10
+What is the primary advantage of using a trie data structure over a hash table for storing strings? A: Tries provide efficient prefix search operations. B: Hash tables have better worst-case time complexity. C: Tries use less memory,A,10
+Describe the main characteristics of a suffix array data structure. A: An array containing all suffixes of a given string sorted lexicographically. B: A tree structure used to efficiently search for keys with common prefixes. C: A queue data structure optimized for fast insertion and deletion of elements,A,10
+In the context of graph theory what does an adjacency matrix represent? A: A two-dimensional array where the value at position (i / j) indicates whether there is an edge between vertex i and vertex j. B: A tree structure representing the hierarchical relationships between elements. C: A data structure used for sorting elements in linear time,A,10
+What is the primary advantage of using a B-tree over a binary search tree? A: B-trees are well-suited for storing large amounts of data on disk. B: B-trees have better worst-case time complexity for search operations. C: B-trees use less memory,A,10
+Explain the purpose of a suffix tree data structure. A: A tree structure used to store all suffixes of a given string in linear time. B: A data structure used for efficient sorting of elements. C: A binary search tree optimized for fast insertion and deletion of elements,A,10
+What is the main purpose of a van Emde Boas tree? A: To support operations like insert & delete & and find-min in O(log log U) time where U is the universe size. B: To efficiently calculate prefix sums and perform range queries on an array. C: To implement dynamic memory allocation,A,10
+Describe the properties of a quadtree data structure. A: A tree data structure in which each internal node has exactly four children. B: A data structure used to implement undo functionality in text editors. C: A queue data structure optimized for fast insertion and deletion of elements,A,10
+What is the primary advantage of using a Patricia trie over a standard trie? A: Patricia tries use less memory by compressing common prefixes. B: Patricia tries have better worst-case time complexity for search operations. C: Patricia tries provide efficient prefix search operations,A,10
+What is the primary purpose of a red-black tree? A: To maintain balance during insertion and deletion operations. B: To store elements in sorted order. C: To implement dynamic memory allocation,A,10
+Which data structure is commonly used for implementing a priority queue? A: Stack. B: Queue. C: Heap,C,10
+Explain the concept of a self-balancing tree. A: A tree structure that automatically maintains balance during insertion and deletion operations. B: A tree structure where nodes balance themselves without external intervention. C: A tree structure optimized for search operations,A,10
+What is the primary advantage of using a hash table over a binary search tree for storing key-value pairs? A: Constant-time access to elements. B: Efficient insertion & deletion and search operations on average. C: Maintains elements in sorted order,B,10
+Describe the main characteristics of a tree data structure. A: A tree-like data structure used to store a dynamic set of strings. B: A data structure consisting of a collection of nodes arranged in a hierarchical order. C: A linked list data structure optimized for fast insertion and deletion of elements,A,10
+In the context of trees: what is the difference between a full binary tree and a complete binary tree? A: A full binary tree has every node except leaf nodes with two children while a complete binary tree is completely filled with the possible exception of the bottom level which is filled from left to right. B: A full binary tree has exactly two children for each node while a complete binary tree has all levels completely filled. C: A full binary tree has a maximum of two children for each node while a complete binary tree has exactly two children for each node,A,10
+What is the primary purpose of a trie data structure? A: To store sorted elements. B: To efficiently search for keys with common prefixes. C: To represent hierarchical data,B,10
+Which data structure is typically used for implementing the undo functionality in text editors? A: Stack. B: Queue. C: Binary search tree,A,10
+Explain the concept of dynamic memory allocation. A: Allocating memory at compile time. B: Allocating memory at runtime. C: Deallocating memory,B,10
+What is the time complexity of merging two sorted arrays of lengths m and n respectively? A: O(m + n). B: O(m log m + n log n). C: O(mn),A,10
+Which data structure is commonly used to implement a symbol table in compilers? A: Hash table. B: Binary search tree. C: Heap,A,10
+What is the purpose of using a bloom filter? A: To store data in a compressed format. B: To perform approximate membership queries with space efficiency. C: To perform efficient sorting of elements,B,10
+Explain the concept of lazy deletion in binary search trees. A: Deleting nodes immediately upon request. B: Marking nodes as deleted without actually removing them from the tree. C: Rearranging nodes to maintain balance,B,10
+What is the main advantage of using a splay tree over other binary search tree variants? A: Splay trees have better average-case time complexity for search operations. B: Splay trees require less memory. C: Splay trees have better worst-case time complexity for insertion and deletion operations,A,10
+What is the primary advantage of using a hash table over other data structures for storing key-value pairs? A: Constant-time access to elements. B: Efficient insertion deletion and search operations on average. C: Maintains elements in sorted order,B,10
+What is the primary purpose of a Fenwick tree (Binary Indexed Tree)? A: To efficiently calculate prefix sums and perform range queries on an array. B: To store binary data in a compressed format. C: To implement dynamic memory allocation,A,10
+Explain the concept of a bloom filter. A: A probabilistic data structure used to test whether an element is a member of a set. B: A data structure used for sorting elements in linear time. C: A tree structure used to represent hierarchical data,A,10
+What is the primary advantage of using a tree data structure over a hash table for storing strings? A: Tries provide efficient prefix search operations. B: Hash tables have better worst-case time complexity. C: Tries use less memory,A,10
+Describe the main characteristics of a suffix array data structure. A: An array containing all suffixes of a given string sorted lexicographically. B: A tree structure used to efficiently search for keys with common prefixes. C: A queue data structure optimized for fast insertion and deletion of elements,A,10
+In the context of graph theory what does an adjacency matrix represent? A: A two-dimensional array where the value at position (i/ j) indicates whether there is an edge between vertex i and vertex j. B: A tree structure representing the hierarchical relationships between elements. C: A data structure used for sorting elements in linear time,A,10
+What is the primary advantage of using a B-tree over a binary search tree? A: B-trees are well-suited for storing large amounts of data on disk. B: B-trees have better worst-case time complexity for search operations. C: B-trees use less memory,A,10
+Explain the purpose of a suffix tree data structure. A: A tree structure used to store all suffixes of a given string in linear time. B: A data structure used for efficient sorting of elements. C: A binary search tree optimized for fast insertion and deletion of elements,A,10
+What is the main purpose of a van Emde Boas tree? A: To support operations like insert delete  and find-min in O(log log U) time where U is the universe size. B: To efficiently calculate prefix sums and perform range queries on an array. C: To implement dynamic memory allocation,A,10
+Describe the properties of a quadtree data structure. A: A tree data structure in which each internal node has exactly four children. B: A data structure used to implement undo functionality in text editors. C: A queue data structure optimized for fast insertion and deletion of elements,A,10
+What is the primary advantage of using a Patricia trie over a standard trie? A: Patricia tries use less memory by compressing common prefixes. B: Patricia tries have better worst-case time complexity for search operations. C: Patricia tries provide efficient prefix search operations,A,10
+What is the primary advantage of using an AVL tree over a red-black tree? A: AVL trees have better worst-case time complexity for insertion and deletion operations. B: AVL trees require less memory. C: AVL trees are easier to implement,A,10
+Which data structure is typically used for implementing a breadth-first search (BFS) in a graph? A: Stack. B: Queue. C: Heap,B,10
+Explain the concept of a heap data structure. A: A binary tree-based data structure where each node is either greater than or equal to (max heap) or less than or equal to (min heap) its children. B: A data structure used to store elements in a sorted order. C: A linked list optimized for fast insertion and deletion of elements,A,10
+What is the time complexity of finding the shortest path between two vertices in an unweighted graph using BFS? A: O(V) B: O(E log V) C: O(V + E),A,10
+What is the main advantage of using a linked list over an array? A: Linked lists have constant-time access to elements. B: Linked lists can dynamically resize without copying elements. C: Linked lists occupy less memory,B,10
+Explain the concept of a stack data structure. A: A linear data structure that follows the Last In First Out (LIFO) principle where elements are inserted and removed from the same end called the top. B: A data structure used for sorting elements in linear time. C: A tree structure used to represent hierarchical data,A,10
+What is the primary purpose of a binary search tree? A: To store elements in sorted order. B: To implement dynamic memory allocation. C: To provide direct access to elements,A,10
+Which data structure is commonly used for implementing a disjoint-set data structure? A: Linked List B: Array C: Binary Tree,B,10
+Explain the concept of amortized analysis in the context of data structures. A: Analyzing the average-case time complexity of operations over a sequence of operations. B: Analyzing the worst-case time complexity of operations. C: Analyzing the best-case time complexity of operations,A,10
+What is the primary purpose of a skip list data structure? A: Skip lists have better worst-case time complexity for search operations. B: Skip lists require less memory. C: Skip lists are easier to implement,A,10
+Describe the process of balancing a binary search tree. A: Performing rotations to maintain the height balance property. B: Reorganizing the tree to ensure that the height is minimized. C: Deleting nodes from the tree,A,10
+What is the primary advantage of using a hash table over a trie for storing strings? A: Hash tables have better average-case time complexity for search operations. B: Tries provide efficient prefix search operations. C: Hash tables use less memory,A,10
+Explain the concept of lazy deletion in binary search trees. A: Marking nodes as deleted without actually removing them from the tree. B: Deleting nodes immediately upon request. C: Rearranging nodes to maintain balance,A,10
+What is the main advantage of using a B-tree over a hash table for storing key-value pairs? A: B-trees provide better support for range queries and sequential access. B: B-trees use less memory. C: B-trees have constant-time access to elements,A,10
+Describe the properties of a quadtree data structure. A: A tree data structure in which each internal node has exactly four children. B: A data structure used to implement undo functionality in text editors. C: A queue data structure optimized for fast insertion and deletion of elements,A,10
+What is the primary purpose of a circular linked list? A: To provide direct access to elements. B: To efficiently implement FIFO queues. C: To store elements in sorted order,B,10
+Explain the concept of a doubly linked list. A: A linked list where each node has two pointers one pointing to the next node and one pointing to the previous node. B: A list where each element is linked to two other elements in the list. C: A list where each element is linked to only one other element in the list,A,10
+What is the primary advantage of using a priority queue over a regular queue? A: Priority queues support elements with varying levels of priority. B: Regular queues have better worst-case time complexity. C: Priority queues use less memory,A,10
+Which data structure is commonly used for implementing depth-first search (DFS) in a graph? A: Stack. B: Queue. C: Heap,A,10
+Explain the concept of a trie data structure. A: A tree-like data structure used to store a dynamic set of strings. B: A data structure consisting of a collection of nodes arranged in a hierarchical order. C: A linked list data structure optimized for fast insertion and deletion of elements,A,10
+What is the primary advantage of using a self-balancing tree over a regular tree? A: Self-balancing trees maintain balance automatically after insertions and deletions. B: Regular trees have better worst-case time complexity. C: Self-balancing trees use less memory,A,10
+Describe the properties of a red-black tree data structure. A: A type of self-balancing binary search tree where each node is colored either red or black and certain properties are maintained to ensure balance. B: A tree structure used to efficiently search for keys with common prefixes. C: A tree data structure in which each internal node has exactly four children, A,10
+What is the main purpose of a van Emde Boas tree? A: To support operations like insert delete and find-min in O(log log U) time where U is the universe size. B: To efficiently calculate prefix sums and perform range queries on an array. C: To implement dynamic memory allocation,A,10
+Explain the concept of a bloom filter. A: A probabilistic data structure used to test whether an element is a member of a set. B: A data structure used for sorting elements in linear time. C: A tree structure used to represent hierarchical data,A,10
+What is the primary advantage of using a suffix tree over a suffix array? A: Suffix trees use less memory. B: Suffix trees provide faster search operations. C: Suffix trees have better worst-case time complexity,A,10
+What is the primary advantage of using a linked list over an array? A: Linked lists can dynamically resize without copying elements. B: Linked lists provide constant-time access to elements. C: Linked lists occupy less memory,A,10
+Explain the concept of a stack data structure. A: A linear data structure that follows the Last In First Out (LIFO) principle. B: A tree structure used to represent hierarchical data. C: A data structure used for sorting elements in linear time,A,10
+What is the main purpose of a binary search tree? A: To store elements in sorted order. B: To implement dynamic memory allocation. C: To provide direct access to elements,A,10
+Which data structure is commonly used for implementing a disjoint-set data structure? A: Linked List. B: Array. C: Binary Tree.,B,10
+Explain the concept of amortized analysis in the context of data structures. A: Analyzing the average-case time complexity of operations over a sequence of operations. B: Analyzing the worst-case time complexity of operations. C: Analyzing the best-case time complexity of operations,A,10
+What is the primary purpose of a skip list data structure? A: Skip lists have better worst-case time complexity for search operations. B: Skip lists require less memory. C: Skip lists are easier to implement,B,10
+Describe the process of balancing a binary search tree. A: Performing rotations to maintain the height balance property. B: Reorganizing the tree to ensure that the height is minimized. C: Deleting nodes from the tree.,A,10
+What is the primary advantage of using a hash table over a trie for storing strings? A: Hash tables have better average-case time complexity for search operations. B: Tries provide efficient prefix search operations. C: Hash tables use less memory,C,10
+Explain the concept of lazy deletion in binary search trees. A: Marking nodes as deleted without actually removing them from the tree. B: Deleting nodes immediately upon request. C: Rearranging nodes to maintain balance,A,10
+What is the main advantage of using a B-tree over a hash table for storing key-value pairs? A: B-trees provide better support for range queries and sequential access. B: B-trees use less memory. C: B-trees have constant-time access to elements,A,10
+What is the primary operation performed by a hashing function? A: Sorting data. B: Mapping data to a fixed-size value. C: Searching data,B,10
+In which data structure is each element divided into a key-value pair? A: Array. B: HashMap. C: Stack,B,10
+What does the term "amortized analysis" refer to in the context of algorithms? A: Worst-case performance of an operation. B: Average-case performance over a sequence of operations. C: Best-case performance of an operation,B,10
+What is the main characteristic of a red-black tree? A: All nodes are either red or black. B: It is a balanced binary search tree. C: Each node has a maximum of two children,A,10
+Which algorithm is primarily used for finding the shortest path in a weighted graph? A: Kruskal's algorithm. B: Dijkstra's algorithm. C: Prim's algorithm,B,10
+What is the purpose of the LRU (Least Recently Used) cache eviction policy? A: To remove the least frequently accessed items. B: To remove the oldest items. C: To remove the items that have not been used for the longest time,C,10
+What is a characteristic of a tree data structure? A: It is used for dynamic memory allocation. B: It is efficient for searching prefixes. C: It stores data in a linear fashion,B,10
+What is the time complexity of searching for an element in a balanced binary search tree? A: O(n). B: O(log n). C: O(1),B,10
+Which of the following is true for a max-heap? A: Each parent node is greater than or equal to its children. B: Each parent node is less than or equal to its children. C: It is a type of binary search tree,A,10
+What is the primary advantage of using an AVL tree? A: It has the best average-case performance. B: It is simpler to implement than other balanced trees. C: It maintains balance ensuring O(log n) time for search insert and delete operations,C,10
+What kind of data structure is used to implement a graph's adjacency matrix? A: Linked List. B: Array. C: Hash Table,B,10
+In the context of databases what does ACID stand for? A: Atomicity Consistency Isolation Durability. B: Authentication Concurrency Isolation Durability. C: Atomicity Concurrency Integrity Durability,A,10
+Which algorithm is used for cycle detection in a graph? A: Floyd-Warshall algorithm. B: Tarjan's algorithm. C: Bellman-Ford algorithm,B,10
+What is a characteristic of a circular linked list? A: It has a sentinel node. B: The last node points back to the first node. C: It uses less memory than a doubly linked list,B,10
+What is the purpose of the "hashcode" method in Java? A: To convert an object into a string. B: To generate an integer representation of an object. C: To compare two objects,B,10
+Which of the following is a self-adjusting binary search tree? A: AVL Tree. B: Splay Tree. C: Red-Black Tree,B,10
+What is the main use of a bloom filter? A: To allow constant-time data retrieval. B: To check for membership in a set with a possibility of false positives. C: To compress data,B,10
+Which of the following algorithms is used for finding the maximum flow in a flow network? A: Kruskal's algorithm. B: Prim's algorithm. C: Ford-Fulkerson algorithm,C,10
+What is the space complexity of the merge sort algorithm? A: O(1). B: O(log n). C: O(n),C,10
+Which type of graph traversal can be used to detect a cycle in a directed graph? A: Depth-First Search. B: Breadth-First Search. C: Both A and B,C,10
+What data structure is commonly used to implement a call stack in programming languages? A: Array. B: Stack. C: Queue,B, 10
+Which traversal method visits all the nodes in a binary tree level by level? A: In-order. B: Pre-order. C: Level-order,C, 10
+What is the main characteristic of a circular queue? A: The last position is connected back to the first position. B: It stores elements in a sorted order. C: It has a fixed size,A, 10
+Which data structure is used in Dijkstra's algorithm to find the shortest path? A: Stack. B: Priority queue. C: Queue,B, 10
+What is the time complexity of inserting an element into an AVL tree? A: O(1). B: O(log n). C: O(n),B, 10
+What type of data structure is a B+ tree primarily used for? A: Storing hierarchical data. B: Implementing priority queues. C: Database indexing,C, 10
+What is a key property of a circular linked list? A: Each node has a pointer to the next and previous node. B: The last node points back to the first node. C: Nodes are stored in sorted order,B, 10
+Which data structure is best suited for implementing a recursive algorithm? A: Queue. B: Stack. C: Linked list,B, 10
+What is the time complexity of deleting an element from a max heap? A: O(1). B: O(log n). C: O(n),B, 10
+Which sorting algorithm is known for having the best average-case time complexity? A: Bubble Sort. B: Insertion Sort. C: Quick Sort,C, 10
+In the context of graph traversal what does DFS stand for? A: Direct First Search. B: Depth-First Search. C: Dynamic First Search,B, 10
+What is the purpose of a sentinel node in linked lists? A: To mark the end of the list. B: To mark the beginning of the list. C: To handle boundary conditions,C, 10
+What is the time complexity of searching for an element in a balanced binary search tree? A: O(1). B: O(log n). C: O(n),B, 10
+Which data structure can be used to implement a priority queue efficiently? A: Stack. B: Binary Heap. C: Linked List,B, 10
+In a doubly linked list what does each node contain? A: A pointer to the next node and the previous node. B: A pointer to the next node only. C: A pointer to the previous node only,A, 10
+What is the main advantage of a binary search over a linear search? A: It is simpler to implement. B: It works on unsorted data. C: It has a lower time complexity,C, 10
+In a tree what does each node represent? A: A complete string. B: A prefix of some keys. C: A single character,C, 10
+What is the main advantage of using a hash table with open addressing? A: It reduces memory usage. B: It simplifies the implementation. C: It avoids linked list overhead,C, 10
+What type of graph has weights assigned to its edges? A: Directed graph. B: Undirected graph. C: Weighted graph,C, 10
+Which traversal method visits the left subtree then the root and finally the right subtree? A: Pre-order. B: Post-order. C: In-order,C, 10
+What is the purpose of the 'parent' pointer in a disjoint-set data structure? A: To point to the root of the set. B: To point to the child node. C: To point to the next sibling node,A, 10
+What is the main advantage of using a heap for priority queues? A: Constant-time access to elements. B: Efficient insertion and deletion operations. C: Maintaining elements in sorted order,B, 10
+Which data structure allows constant-time complexity for insertions at both ends? A: Queue. B: Deque. C: Stack,B, 10
+In the context of data structures what does 'FIFO' stand for? A: First In First Out. B: Fast In Fast Out. C: First In Final Out,A, 10
+What is the main advantage of using a bloom filter for membership queries? A: It provides exact results. B: It is space-efficient. C: It supports deletion operations, B, 10
+What is the primary use of a suffix tree in string processing? A: Pattern matching. B: Sorting. C: Numerical operations,A, 10
+What is the main characteristic of a self-balancing binary search tree? A: Nodes are arranged in increasing order. B: The height of the tree is kept to a minimum. C: All nodes have two children,B,10
+Which data structure is typically used to implement a LIFO (Last In First Out) mechanism? A: Queue. B: Stack. C: Deque,B,10
+What is the main advantage of using an adjacency matrix to represent a graph? A: Efficient memory usage. B: Fast edge lookup. C: Easy to implement,B,10
+In a red-black tree what property is always maintained during insertions and deletions? A: All nodes are red. B: The tree remains balanced. C: The tree has only one leaf,B,10
+What is the worst-case time complexity of the Quick Sort algorithm? A: O(n). B: O(n log n). C: O(n^2),C,10
+Which data structure is commonly used to perform breadth-first search (BFS) on a graph? A: Stack. B: Queue. C: Heap,B, 10
+What is the main advantage of using a dynamic array over a static array? A: Improved memory efficiency. B: Faster access times. C: Ability to change size during runtime,C, 10
+In the context of heaps what is the key property of a min-heap? A: The smallest element is at the root. B: The largest element is at the root. C: Elements are stored in sorted order,A, 10
+What is the primary purpose of a sentinel node in a linked list? A: To indicate the start of the list. B: To simplify boundary condition checks. C: To store the list size,B, 10
+Which data structure uses Last In First Out (LIFO) principle?,Stack,15
+What data structure organizes elements in a hierarchical manner?,Tree,15
+Which data structure has a constant time complexity for insertion and deletion at both ends?,Deque,15
+What data structure is used to represent a collection of elements with no particular order?,Set,15
+Which data structure ensures that the first element inserted is the first one to be removed?,Queue,15
+What data structure provides a way to access elements based on their key?,Map,15
+Which data structure is a collection of key-value pairs with unique keys?,Dictionary,15
+What data structure is similar to a linked list but allows traversal in both directions?,Doubly linked list,15
+Which data structure uses a hash function to index elements?,Hash table,15
+What data structure efficiently supports insertions & deletions and search operations in logarithmic time?,Binary search tree,15
+Which data structure is a linear collection of elements where insertion and deletion occur at one end?,Queue,15
+What data structure is used to store a collection of elements with no duplicates?,Set,15
+Which data structure uses breadth-first or depth-first traversal techniques?,Graph,15
+What data structure is a sequence of elements with dynamic size adjustments?,Array,15
+Which data structure supports constant-time access to elements based on their position?,Array,15
+What data structure organizes elements in a sorted order?,Sorted set,15
+Which data structure allows efficient search & insert and delete operations based on their priority?,Priority queue,15
+What data structure represents a set of objects where some pairs of the objects are related?,Graph,15
+Which data structure provides a way to efficiently search insert and delete elements with a given key?,Hash table,15
+What data structure is a special type of tree with at most two children for each node?,Binary tree,15
+Which data structure is a hierarchical tree-like structure that stores data in a sorted manner?,Trie,15
+What data structure is used to represent a special type of graph where each edge has a direction?,Directed graph,15
+Which data structure supports first-in & first-out (FIFO) access to elements?,Queue,15
+What data structure is used to store a sequence of elements with efficient insertions and deletions at both ends?,Double-ended queue,15
+Which data structure is a collection of elements with no specific order and no duplicates?,Bag,15
+Which data structure provides constant-time access to the maximum or minimum element?,Heap,15
+What data structure represents a collection of elements in a linear order with dynamic resizing?,Dynamic array,15
+Which data structure is a variation of a linked list where the last node points back to the first node?,Circular linked list,15
+What data structure represents a sequence of elements with no specific order or duplicates?,Multiset,15
+Which data structure stores elements in a first-in last-out order?,LIFO queue,15
+What data structure is used to efficiently store and retrieve a collection of elements in a key-value pair format?,Hash map,15
+Which data structure allows efficient access to elements based on their index position?,Indexed array,15
+What data structure represents a collection of elements in a linear order with a fixed-size capacity?,Static array,15
+Which data structure provides constant-time access to elements based on their hash value?,Hash set,15
+What data structure represents a collection of elements in a linear order where elements can be accessed randomly?,Random access list,15
+Which data structure is a type of hash table that uses multiple hash functions to index elements?,Cuckoo hash table,15
+What data structure represents a collection of disjoint sets with efficient union and find operations?,Disjoint-set data structure,15
+Which data structure efficiently stores and retrieves elements in a sorted order with logarithmic time complexity?,Balanced binary search tree,15
+What data structure represents a collection of elements with associated priority values?,Priority queue,15
+Which data structure is used to efficiently store and retrieve a collection of elements in a sorted order?,Skip list,15
+What data structure is a variation of a hash table that uses separate chaining to handle collisions?,Chained hash table,15
+Which data structure is used to represent a sequence of characters in a specific order?,String,15
+What data structure represents a collection of elements in a sorted order with no duplicates?,Sorted set,15
+Which data structure provides efficient insertion deletion & and retrieval operations for a collection of elements based on their key values?,B-tree,15
+What data structure represents a collection of elements where each element points to its successor?,Linked list,15
+Which data structure efficiently stores and retrieves elements in a last-in first-out order?,LIFO stack,15
+What data structure represents a collection of elements with no particular order and no duplicates?,Bag,15
+Which data structure is a type of tree where each node has at most two children and each child node is either greater or less than its parent node?,Binary search tree,15
+What data structure is used to store a collection of elements with associated priorities?,Heap,15
+Which data structure represents a collection of elements with no specific order and allows duplicates?,List,15
+Which data structure represents a collection of elements with no particular order and no duplicates & with efficient insertion & deletion and retrieval operations?,Set,15
+What data structure is used to represent a collection of elements where each element occurs multiple times?,Multiset,15
+Which data structure provides efficient access to the minimum and maximum elements with constant time complexity?,Min-max heap,15
+What data structure represents a collection of elements with no specific order and allows duplicates?,Bag,15
+Which data structure is a variation of a hash table that uses open addressing to handle collisions?,Open addressing hash table,15
+What data structure efficiently stores a collection of elements with associated values & allowing fast retrieval based on keys?,Dictionary,15
+Which data structure represents a collection of elements with dynamic resizing and efficient insertion and deletion at both ends?,Dynamic array,15
+What data structure is used to store a collection of elements with associated priorities & allowing efficient retrieval of the highest-priority element?,Priority queue,15
+Which data structure is used to efficiently store and retrieve elements in a sorted order with logarithmic time complexity?,Balanced binary search tree,15
+What data structure is a variation of a tree where each node has at most two children and the depth of the tree is minimized?,AVL tree,15
+Which data structure efficiently stores a collection of elements with associated priorities & allowing efficient insertion & deletion and retrieval operations?,Binary heap,15
+What data structure represents a collection of disjoint sets with efficient union and find operations?,Disjoint-set data structure,15
+Which data structure represents a collection of elements in a linear order where elements can be accessed randomly with constant time complexity?,Array,15
+What data structure is used to represent a sequence of characters in a specific order?,String,15
+Which data structure provides efficient insertion & deletion and retrieval operations for a collection of elements based on their key values while allowing duplicates?,B-tree,15
+What data structure is a type of tree where each node has at most two children and each child node is either greater than or equal to its parent node?,Binary search tree,15
+Which data structure represents a collection of elements in a linear order where elements can be accessed sequentially & allowing efficient insertion and deletion at both ends?,Linked list,15
+What data structure is used to represent a hierarchical tree-like structure that stores data in a sorted manner?,Tree,15
+Which data structure efficiently stores a collection of elements with associated values & allowing fast retrieval based on keys and maintains the keys in sorted order?,TreeMap,15
+What data structure is used to represent a special type of graph where each edge has a direction from one vertex to another?,Directed graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends?,Double-ended queue,15
+What data structure efficiently stores a collection of elements with associated priorities & allowing efficient insertion and deletion operations?,Binomial heap,15
+Which data structure is used to represent a collection of elements with no specific order and allows duplicates & while providing efficient insertion & deletion and retrieval operations?, Bag,15
+What data structure represents a collection of elements in a specific order where elements can be accessed sequentially & and each element has a pointer to the next element in the sequence?,Singly linked list,15
+Which data structure efficiently stores a collection of elements with associated priorities & allowing efficient insertion & deletion and retrieval operations and maintains the elements in sorted order based on their priorities?,Priority deque,15
+What data structure represents a collection of elements with no specific order and allows duplicates while providing efficient insertion & deletion and retrieval operations based on their hash values?,HashBag,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while maintaining the elements in a sorted order?,Linked deque,15
+What data structure is used to represent a collection of elements with associated priorities + allowing efficient insertion & deletion and retrieval operations and maintaining the elements in sorted order based on their priorities using a balanced binary tree?,TreeMap,15
+Which data structure represents a collection of elements in a specific order where elements can be accessed sequentially & and each element has pointers to both the next and previous elements in the sequence?,Doubly linked list,15
+What data structure is used to represent a special type of graph where each edge has a weight or cost associated with it?,Weighted graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while allowing duplicates and maintaining the elements in sorted order based on their values?,Sorted deque,15
+What data structure is used to represent a collection of elements with associated priorities & allowing efficient insertion & deletion & and retrieval operations and maintaining the elements in sorted order based on their priorities using a skew heap?,Skew heap,15
+Which data structure represents a collection of elements in a specific order where elements can be accessed sequentially & and each element has pointers to both the next and previous elements in the sequence & forming a loop?,Circular doubly linked list,15
+What data structure is used to represent a special type of graph where each edge has a direction and a weight or cost associated with it?,Directed weighted graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while maintaining the elements in sorted order based on their values using a self-balancing binary search tree?,TreeSet,15
+What data structure is used to represent a collection of elements with associated priorities while allowing efficient insertion & deletion and retrieval operations and maintaining the elements in sorted order based on their priorities using a Fibonacci heap?,Fibonacci heap,15
+Which data structure represents a collection of elements in a specific order where elements can be accessed sequentially & and each element has pointers to both the next and previous elements in the sequence forming a loop all while allowing duplicates?,Circular doubly linked bag,15
+What data structure is used to represent a special type of graph where each edge has a direction and a weight or cost associated with it & and the graph forms a loop?,Directed cyclic weighted graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while allowing duplicates and maintaining the elements in sorted order based on their values using a balanced binary search tree with duplicate nodes?,MultiSetTree,15
+What data structure is used to represent a collection of elements with associated priorities and allows efficient insertion & deletion & retrieval operations and maintaining the elements in sorted order based on their priorities using a rank-pairing heap?,Rank-pairing heap,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends all while maintaining the elements in sorted order based on their values using a self-balancing red-black tree?,Red-black deque,15
+What data structure is used to represent a special type of graph where each edge has a direction and a weight or cost associated with it & and the graph forms a loop & while allowing self-loops?,Directed cyclic self-loop weighted graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends all while allowing duplicates and maintaining the elements in sorted order based on their values using a balanced binary search tree with duplicate nodes and a B-tree structure?,MultiSetBTree,15
+What data structure is used to represent a collection of elements with associated priorities & allowing efficient insertion deletion and retrieval operations and maintaining the elements in sorted order based on their priorities using a tournament tree?,Tournament tree,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while maintaining the elements in sorted order based on their values using a self-balancing AVL tree?,AVL deque,15
+What data structure is used to represent a special type of graph where each edge has a direction and a weight or cost associated with it and the graph forms a loop & while allowing self-loops and multiple edges between the same pair of vertices?,Directed cyclic self-loop multi-edge weighted graph,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while allowing duplicates and maintaining the elements in sorted order based on their values using a balanced binary search tree with duplicate nodes and a B-tree structure & and supports efficient range queries?,RangeMultisetBTree,15
+What data structure is used to represent a collection of elements with associated priorities & allowing efficient insertion + deletion + retrieval operations and maintaining the elements in sorted order based on their priorities using a leftist heap?,Leftist heap,15
+Which data structure represents a collection of elements in a specific order with dynamic resizing and efficient insertion and deletion at both ends & while maintaining the elements in sorted order based on their values using a self-balancing splay tree?,Splay deque,15
+What data structure is used to represent a special type of graph where each edge has a direction and a weight or cost associated with it and the graph forms a loop & while allowing self-loops and multiple edges between the same pair of vertices and supports efficient shortest path algorithms?,Directed cyclic self-loop multi-edge weighted graph with shortest path support,15
+Which data structure represents a collection of elements in a linear order where each element points to the next element?,Singly linked list,15
+What data structure is used to represent a collection of elements where each element has multiple pointers to other elements?,Graph,15
+Which data structure is used to store and retrieve elements in a first-in & first-out order?,Queue,15
+What data structure represents a sequence of characters and allows efficient manipulation of the characters?,Rope,15
+Which data structure is a variant of a heap that allows fast access to the minimum element?,Min-heap,15
+What data structure uses a hash function to map keys to values with constant average time complexity for search & insert and delete operations?,Hash table,15
+Which data structure is used to implement a dynamic programming algorithm for problems involving overlapping subproblems?,Memoization table,15
+What data structure is a self-balancing binary search tree with an additional level of nodes acting as sentinels?,AA tree,15
+Which data structure is used to represent a collection of elements with no specific order and supports efficient union and intersection operations?,Bit set,15
+What data structure is used to represent a collection of key-value pairs in which keys are unique and values can be updated?,Map,15
+Which data structure is a hierarchical data structure that partitions space into regions and is used in computer graphics and spatial databases?,Quad tree,15
+What data structure is used to represent a fixed-size sequence of elements and allows efficient random access to elements?,Array,15
+Which data structure is used to implement a dynamic programming algorithm for problems involving optimal substructure?,Optimal substructure table,15
+What data structure is used to efficiently store and retrieve a collection of elements with priorities & supporting both minimum and maximum elements?,Double-ended priority queue,15
+Which data structure is a variant of a binary search tree where nodes have multiple children and is used in database indexing?,B+ tree,15
+What data structure represents a collection of elements in a linear order where elements can be inserted and deleted from both ends?,Deque,15
+Which data structure is used to efficiently store and retrieve a collection of elements with unique keys & supporting ordered iteration?,Ordered map,15
+What data structure is used to store a collection of elements where each element points to both its previous and next element in the sequence?,Doubly linked list,15
+Which data structure is a hierarchical data structure that is used for indexing multi-dimensional information & such as geographical coordinates?,R-tree,15
+What data structure represents a collection of elements where each element has a unique identifier & supporting efficient union and find operations?,Union-find,15
+Which data structure is used to represent a collection of elements with no specific order & supporting efficient insertion and deletion of elements?,Unordered set,15
+What data structure is used to represent a sequence of characters and allows efficient concatenation and slicing operations?,Concatenable string,15
+Which data structure is a tree where each node has up to four children and is used to represent a hierarchical partitioning of two-dimensional space?,Quad tree,15
+What data structure is used to efficiently store and retrieve a collection of elements in a hierarchical order & supporting fast insertion and deletion?,Heap,15
+Which data structure represents a collection of elements with priorities & supporting efficient insertion and deletion based on priorities?,Priority heap,15
+What data structure is a variant of a binary search tree that maintains balance by allowing rotations during insertion and deletion?,Splay tree,15
+Which data structure is used to implement a dynamic programming algorithm for problems involving overlapping subproblems and optimal substructure?,Memoization tree,15
+What data structure represents a collection of elements where each element points to its successor and predecessor & forming a loop?,Circular linked list,15
+Which data structure is used to efficiently store and retrieve a collection of elements & supporting ordered iteration and duplicate keys?,Multi-map,15
+What data structure is a self-balancing binary search tree with red and black nodes and used to ensure balance during insertion and deletion?,Red-black tree,15
+Which data structure is used to represent a collection of elements with no specific order and supports efficient set operations like union and intersection?,Bloom filter,15
+What data structure represents a collection of elements in a linear order where elements can be accessed randomly with support for efficient resizing?,Vector,15
+Which data structure is a hierarchical data structure that partitions space into regions and is used in nearest neighbor search?,KD-tree,15
+What data structure is used to store a collection of elements where each element has a unique identifier and supporting efficient union and find operations with path compression?,Disjoint-set forest,15
+Which data structure is a variant of a binary search tree where each node has an additional level of nodes acting as sentinels to ensure balance?,Treap,15
+What data structure represents a collection of elements in a linear order & supporting efficient insertion and deletion at both ends and random access?,Dynamic deque,15
+Which data structure is used to efficiently store and retrieve a collection of elements and supporting fast access based on keys and maintaining sorted order?,Sorted map,15
+What data structure is a tree where each node has multiple children and is used to represent hierarchical data and support fast lookup and insertion?,B-tree,15
+Which data structure represents a collection of elements in a linear order where elements can be accessed sequentially and supporting efficient insertion and deletion at both ends and ordered iteration?,Linked deque,15
+What data structure is a variant of a binary search tree that ensures balance using AVL rotations and supports fast lookup and insertion?,AVL tree,15
+Which data structure is used to represent a collection of elements with no specific order & supporting efficient union and find operations with union by rank?,Union-by-rank set,15
+What data structure represents a collection of elements in a linear order & supporting efficient random access and dynamic resizing?,Resizable array,15
+Which data structure is a tree where each node has a fixed number of children & used to represent hierarchical data and support fast lookup and insertion?,N-ary tree,15
+What data structure is used to efficiently store and retrieve a collection of elements with priorities while supporting fast access to the maximum element?,Max-heap,15
+Which data structure represents a collection of elements in a linear order where elements can be accessed sequentially and supporting efficient insertion and deletion at both ends and ordered iteration with unique elements?,Ordered deque,15
+What data structure is a variant of a binary search tree that ensures balance using rotations and supports fast lookup and insertion with duplicate keys?,Multi-key AVL tree,15
+Which data structure is used to represent a collection of elements with no specific order and supporting efficient set operations like union and intersection with probabilistic membership testing?,Counting Bloom filter,15
+What data structure represents a collection of elements in a linear order and supporting efficient random access and dynamic resizing with amortized constant time complexity?,Dynamic vector,15
+Which data structure is a tree where each node has up to four children & used to represent hierarchical data and support fast lookup and insertion in two-dimensional space?,Quad tree,15
+What data structure is used to store a collection of elements where each element has a unique identifier and supporting efficient union and find operations with union by size?,Size-balanced disjoint-set,15

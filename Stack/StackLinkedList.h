@@ -1,3 +1,4 @@
+//CARD HANDLING HEADER
 #pragma once
 #include <fstream>
 #include <sstream>
@@ -208,8 +209,11 @@ void discardeddeck::push(const string& question, const string& answer, int score
 	if (size == capacity) {
 		resize();
 	}
+	// Calculate the reduced score and explicitly cast to int, rounding correctly
+	int reducedScore = static_cast<int>(static_cast<float>(score) * 0.8 + 0.5);
+
 	// Create a new discardedCard and add it to the array
-	cards[size++] = new discardedCard(question, answer, score * 0.8);
+	cards[size++] = new discardedCard(question, answer, reducedScore);
 
 }
 
