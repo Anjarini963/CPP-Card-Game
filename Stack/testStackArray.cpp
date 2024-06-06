@@ -70,7 +70,6 @@ int main() {
                             delete card;
 
                         }
-                        //logic for user handling (adding information of answered card onto user info)
                     }
                     else if (userchoice == "2") {
                         //logic for dislpaying the discarded set options
@@ -80,6 +79,7 @@ int main() {
                             
                             continue;
                         }
+                        cout << "DISCARDED CARDS: ";
                         discardedDeck.display();
                         cout << "Please select the card you want to answer:" << endl;
                         int index;
@@ -87,7 +87,8 @@ int main() {
                         //user selects the card here
                         discardedCard* card = discardedDeck.getCard(index - 1);
                         if (card) {
-                            cout << "You selected: " << endl << card->question << endl << "What's your answer? ";
+                            cout << "You selected: " << endl << card->question << endl << "What's your answer? " << endl;
+                            cout << "DEBUG:" << card->answer << endl;
                             cin.ignore(numeric_limits<streamsize>::max(), '\n');
                             getline(cin, answer);
                             answer = unansweredDeck.toLower(answer);
@@ -100,6 +101,7 @@ int main() {
 
                             }
                             else {
+                                cout << "Wrong Answer!" << endl;
                                 players.getPlayer(i)->recordAnswer(turn, card->question, 0);
                             }
                         }
