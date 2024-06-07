@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StackLinkedList.h">
+    <ClInclude Include="CardHandling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PointHandling.h">

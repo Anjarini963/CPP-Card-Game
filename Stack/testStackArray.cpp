@@ -1,4 +1,4 @@
-#include "StackLinkedList.h"
+#include "CardHandling.h"
 #include "PointHandling.h"
 
 
@@ -39,7 +39,6 @@ int main() {
                         //logic for picking a card form unanswered deck
                         Card* card = unansweredDeck.pop();
                         cout << card->question << endl;
-                        cout << "DEBUG:" << card->answer << endl;
                         cin.ignore(numeric_limits<streamsize>::max(), '\n');
                         getline(cin, answer);
                         answer = unansweredDeck.toLower(answer);
